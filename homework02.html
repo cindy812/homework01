@@ -1,0 +1,392 @@
+<html>
+  <head>
+    <title>This is a Web</title>
+    <style>
+         * {
+   box-sizing: border-box;
+}
+ #menu {
+  width: 450px;
+  height: 680px;
+  background-color: #FEDD03;
+  padding: 15px 20px;
+  position:relative
+}
+.title-container, .capacity-block {
+  display: flex;
+  justify-content: space-between;
+}
+.capacity-block {
+  text-align: center;
+}
+.regular-block {
+  margin-right: 20px;
+}
+.line {
+   width: 100%;
+   height: 3px;
+   background-color: #6DE8DA;
+   margin-top: 5px;
+   border-radius: 4px;
+}
+.title-container{
+  font-weight: bold;
+  color: #E92769;
+}
+.title-en {
+  letter-spacing: -1px;
+}
+.oatly-container{
+  font-weight: bold;
+  color: #E92769;
+}
+.substance-ch{
+  font-size:95%;
+}
+.substance-en{
+  font-size:70%
+}
+.oatly-temperature-block,.macadamia-temperature-block,.nutella-temperature-block,.osmanthus-temperature-block,.beach-temperature-block,.icepresso-temperature-block,.chocolate-temperature-block,.matcha-temperature-block{
+  display: flex;
+  font-size: 60%;
+  align-items: center;
+  line-height:50px
+}
+.oatly-container,.price-block{
+  display:flex;
+  justify-content: space-between;
+}
+.regular-price-block{
+  margin-right: 70px;
+  font-size:120%;
+  display:flex;
+  align-items: center
+}
+.upsize-price-block{
+  margin-right: 10px;
+  font-size:120%;
+  display:flex;
+  align-items: center
+}
+.oatly-container{
+  padding:10px 0px;
+}
+.macadamia-container{
+  font-weight: bold;
+  color: #E92769;  
+}
+.macadamia-container, .price-block {
+  display: flex;
+  justify-content: space-between;
+}
+.nutella-container{
+  font-weight: bold;
+  color: #E92769;
+  margin:10px 0px
+}
+.nutella-container, .price-block {
+  display: flex;
+  justify-content: space-between;
+}
+.osmanthus-container{
+  font-weight: bold;
+  color: #E92769;  
+}
+.osmanthus-container, .price-block {
+  display: flex;
+  justify-content: space-between;
+}
+.beach-container{
+  font-weight: bold;
+  color: #E92769;
+  margin:10px 0px
+}
+.beach-container, .price-block {
+  display: flex;
+  justify-content: space-between;
+}
+.icepresso-container{
+  font-weight: bold;
+  color: #E92769;
+  margin-bottom:20px
+}
+.icepresso-container, .price-block {
+  display: flex;
+  justify-content: space-between;
+}
+.chocolate-container{
+  font-weight: bold;
+  color: #E92769;
+  margin:10px 0px
+}
+.chocolate-container, .price-block {
+  display: flex;
+  justify-content: space-between;
+}
+.matcha-container{
+  font-weight: bold;
+  color: #E92769;  
+}
+.matcha-container, .price-block {
+  display: flex;
+  justify-content: space-between;
+}
+.upgrades-content{
+  width:400px;
+  height:100px;
+  background-color:#E92769;
+  position:absolute;
+  bottom: 0  
+}
+.upgrades-container,.upgrades-substance-block{
+  display:flex;
+  justify-content: space-between;
+}
+.upgrades-container{
+    display:flex;
+    font-weight:bold;
+    align-items: center;
+    margin: 20px 20px     
+}
+.upgrades-title-block{
+  color:#FEDD03;
+  font-size: 90%
+}
+.upgrades-substance-block, .upgrades-price-block{
+  color: white;
+  font-size: 20%
+}
+.upgrades-substance-block, nutella{
+  display:flex;
+  flex-direction:column
+}
+.upgrades-title-ch{
+  margin-bottom:5px
+}
+.oatly{
+  margin:5px 0px
+}
+.oatly-price{
+  margin:8px 0px
+}
+.chocolate-upsize-price{
+  margin-left:8px
+}
+.matcha-upsize-price{
+  margin-left:8px
+}
+    </style>
+    </style>
+  </head>
+  <body>
+    <div id="menu">
+        <div class="content">
+          <div class="title-container">
+            <div class="title-block">
+              <div class="title-ch">閃電特調</div>
+              <div class="title-en">SIGNATURE LATTES</div>
+            </div>
+            <div class="capacity-block">
+              <div class="regular-block">
+                <div class="regular-title-ch">中杯</div>
+                <div class="regular-title-en">REGULAR</div>
+              </div>
+              <div class="upsize-block">
+                <div class="upsize-title-ch">大杯</div>
+                <div class="upsize title-en">UPSIZE</div>
+              </div>
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="oatly-container">
+            <div class="items-block">
+              <div class="substance-ch">OATLY 燕麥拿鐵</div>
+              <div class="substance-en">OATLY LATTE</div>
+            </div>
+            <div class="oatly-temperature-block">
+              <div class="temperature">HOT/ICED</div>
+            </div>
+            <div class="price-block">
+              <div class="regular-price-block">
+                <div class="regular-price">80</div>
+              </div>
+              <div class="upsize-price-block">
+                <div class="upsize-price">105</div>
+              </div>
+            </div>
+          </div>
+          <div class="macadamia-container">
+            <div class="items-block">
+              <div class="substance-ch">夏威夷果拿鐵</div>
+              <div class="substance-en">MACADAMIA LATTE</div>
+            </div>
+            <div class="macadamia-temperature-block">
+              <div class="temperature">HOT/ICED</div>
+            </div>
+            <div class="price-block">
+              <div class="regular-price-block">
+                <div class="regular-price">80</div>
+              </div>
+              <div class="upsize-price-block">
+                <div class="upsize-price">105</div>
+              </div>
+            </div>
+          </div>
+          <div class="nutella-container">
+            <div class="items-block">
+              <div class="substance-ch">榛心可可拿鐵</div>
+              <div class="substance-en">NUTELA LATTE</div>
+            </div>
+            <div class="nutella-temperature-block">
+              <div class="temperature">HOT/ICED</div>
+            </div>
+            <div class="price-block">
+              <div class="regular-price-block">
+                <div class="regular-price">80</div>
+              </div>
+              <div class="upsize-price-block">
+                <div class="upsize-price">105</div>
+              </div>
+            </div>
+          </div>
+          <div class="osmanthus-container">
+            <div class="items-block">
+              <div class="substance-ch">桂花拿鐵</div>
+              <div class="substance-en">OSMANTHUS LATTE</div>
+            </div>
+            <div class="osmanthus-temperature-block">
+              <div class="temperature">HOT/ICED</div>
+            </div>
+            <div class="price-block">
+              <div class="regular-price-block">
+                <div class="regular-price">80</div>
+              </div>
+              <div class="upsize-price-block">
+                <div class="upsize-price">105</div>
+              </div>
+            </div>
+          </div>
+          <div class="beach-container">
+            <div class="items-block">
+              <div class="substance-ch">沙灘拿鐵</div>
+              <div class="substance-en">BEACH LATTE</div>
+            </div>
+            <div class="beach-temperature-block">
+              <div class="temperature">HOT/ICED</div>
+            </div>
+            <div class="price-block">
+              <div class="regular-price-block">
+                <div class="regular-price">80</div>
+              </div>
+              <div class="upsize-price-block">
+                <div class="upsize-price">105</div>
+              </div>
+            </div>
+          </div>
+          <div class="icepresso-container">
+            <div class="items-block">
+              <div class="substance-ch">冰煉乳拿鐵</div>
+              <div class="substance-en">ICEPRESSO LATTE</div>
+            </div>
+            <div class="icepresso-temperature-block">
+              <div class="temperature">HOT/ICED</div>
+            </div>
+            <div class="price-block">
+              <div class="regular-price-block">
+                <div class="regular-price">80</div>
+              </div>
+              <div class="upsize-price-block">
+                <div class="upsize-price">105</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="title-container">
+            <div class="title-block">
+              <div class="title-ch">歐蕾系列</div>
+              <div class="title-en">MILKS</div>
+            </div>
+            <div class="capacity-block">
+              <div class="regular-block">
+                <div class="regular-title-ch">中杯</div>
+                <div class="regular-title-en">REGULAR</div>
+              </div>
+              <div class="upsize-block">
+                <div class="upsize-title-ch">大杯</div>
+                <div class="upsize title-en">UPSIZE</div>
+              </div>
+            </div>
+          </div>
+          <div class="line"></div>
+        <div class="chocolate-container">
+            <div class="items-block">
+              <div class="substance-ch">濃郁義式可可</div>
+              <div class="substance-en">CHOCOLATE</div>
+            </div>
+            <div class="chocolate-temperature-block">
+              <div class="temperature">HOT/ICED</div>
+            </div>
+            <div class="price-block">
+              <div class="regular-price-block">
+                <div class="regular-price">60</div>
+              </div>
+              <div class="upsize-price-block">
+                <div class="chocolate-upsize-price">80</div>
+              </div>
+            </div>
+          </div>
+        <div class="matcha-container">
+            <div class="items-block">
+              <div class="substance-ch">抹茶歐蕾</div>
+              <div class="substance-en">MATCHA  LATTE</div>
+            </div>
+            <div class="matcha-temperature-block">
+              <div class="temperature">HOT/ICED</div>
+            </div>
+            <div class="price-block">
+              <div class="regular-price-block">
+                <div class="regular-price">70</div>
+              </div>
+              <div class="upsize-price-block">
+                <div class="matcha-upsize-price">90</div>
+              </div>
+            </div>
+          </div>
+        <div class="nutella-container">
+            <div class="items-block">
+              <div class="substance-ch">抹茶夏威夷果歐蕾</div>
+              <div class="substance-en">NUTELLA    LATTE</div>
+            </div>
+            <div class="nutella-temperature-block">
+              <div class="temperature">HOT/ICED</div>
+            </div>
+            <div class="price-block">
+              <div class="regular-price-block">
+                <div class="regular-price">90</div>
+              </div>
+              <div class="upsize-price-block">
+                <div class="upsize-price">110</div>
+              </div>
+            </div>
+          </div>
+          <div class="upgrades-content">
+            <div class="upgrades-container">
+              <div class="upgrades-title-block">
+                <div class="upgrades-title-ch">升級</div>
+                <div class="upgrades-title-en">UPGRADES</div>
+              </div>
+              <div class="upgrades-substance-block">
+                <div class="extra">+閃電濃縮 EXTRA ESPRESSO SHOT</div>
+                <div class="oatly">OATLY 燕麥奶 OATLY MILK</div>
+                <div class="nutella">榛果可可醬 NUTELLA (10g)</div>
+              </div>
+              <div class="upgrades-price-block">
+                <div class="extra-price">10</div>
+                <div class="oatly-price">20</div>
+                <div class="nutella-price">5</div>
+              </div>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
